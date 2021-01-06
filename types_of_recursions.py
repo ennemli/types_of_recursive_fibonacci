@@ -18,8 +18,8 @@ def tail_fib(n,num1=0,num2=1):
     else:
         return tail_fib(n-1,num1=num2,num2=num1+num2)
 
-num=100
 #Checking.
+num=100
 print("head fib:")
 print(head_fib(num))
 print("\ntail fib:")
